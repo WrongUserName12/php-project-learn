@@ -10,6 +10,10 @@ class Mic
     public $price;
     public $usb_port;
 
+    public static function testfunction(){
+        print("This is a Static Function");
+    }
+
     public function __construct($brand){
         print("Construction\n");
         $this->brand = $brand;

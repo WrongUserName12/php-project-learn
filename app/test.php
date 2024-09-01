@@ -3,6 +3,7 @@
 include 'lib/load.php';
 $mic1 = new Mic("AUDI");
 $mic2 = new Mic("BENZ"); //Constructing an object
+Mic::testfunction();
     
     // $mic1->setlight("Dark");
     // print($mic1->getlight());
