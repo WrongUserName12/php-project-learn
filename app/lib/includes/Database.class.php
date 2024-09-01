@@ -19,11 +19,13 @@ public static function getconnection(){
         else{
             Database::$conn=$connection;
             return Database::$conn;
+            print("New Connection Establishing");
         }
         
     }
     else{
         return Database::$conn;
+        print("Using Existing Connection");
     }
 }
 

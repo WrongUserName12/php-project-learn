@@ -1,6 +1,6 @@
 <?php
 
-class signup{
+class User{
     public static function signup($user,$pass,$email,$phone){
    
         $conn = Database::getconnection();
@@ -17,4 +17,5 @@ class signup{
         return $error;
         
         }
+    
 }
